@@ -1,0 +1,11 @@
+﻿@{
+    ViewBag.Title = "Suppliers";
+}
+
+@*reference the js files are added through bundle config file *@
+@Scripts.Render("~/bundles/myBundle")
+
+<h2>Suppliers List</h2>
+
+<div id="displayNode"> @Html.Partial("SupplierList") </div>
+<br />
